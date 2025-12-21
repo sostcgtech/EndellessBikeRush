@@ -146,7 +146,7 @@ Animator:
   m_GameObject: {fileID: 3691633808632984389}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: d66f22ecc1b873341b3d5ef56c678cfc, type: 3}
-  m_Controller: {fileID: 9100000, guid: 1245d9d938939314082a8a61f8852450, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1d25061491074e64887ed8ba2341be1c, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
   - {fileID: 114000010124067434, guid: 2ae64d0eaec8d6f4f9436fce6117048d, type: 3}
   - {fileID: 114000013004132168, guid: 2ae64d0eaec8d6f4f9436fce6117048d, type: 3}
   - {fileID: 114000012881478878, guid: 2ae64d0eaec8d6f4f9436fce6117048d, type: 3}
-  animator: {fileID: 9501716, guid: 2ae64d0eaec8d6f4f9436fce6117048d, type: 3}
+  animator: {fileID: 512317328777537624}
   icon: {fileID: 21300000, guid: 36f8fa129988f35409f4b6823286cd2b, type: 3}
   jumpSound: {fileID: 8300000, guid: 819da6b208e0c0342b38dbbba363b740, type: 3}
   hitSound: {fileID: 8300000, guid: 4df05e5a3da67b74ab57e4fdbff8c1fa, type: 3}

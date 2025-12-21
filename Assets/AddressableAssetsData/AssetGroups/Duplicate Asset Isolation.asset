@@ -65,6 +65,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d25061491074e64887ed8ba2341be1c
+    m_Address: Assets/Animation/Animators/MotorcycleAnimator.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1f6f8aef6ad2c6441a3fe10ca76836c2
     m_Address: Assets/Models/Daytime/BinBagOpen.fbx
     m_ReadOnly: 0
