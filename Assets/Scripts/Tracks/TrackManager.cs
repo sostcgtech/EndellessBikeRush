@@ -63,7 +63,10 @@ public class TrackManager : MonoBehaviour
 
     public int trackSeed { get { return m_TrackSeed; } set { m_TrackSeed = value; } }
 
-    public float timeToStart { get { return m_TimeToStart; } }  // Will return -1 if already started (allow to update UI)
+    //public float timeToStart { get { return m_TimeToStart; } }  // Will return -1 if already started (allow to update UI)
+    
+    //i change this
+    public float timeToStart { get { return m_TimeToStart; } set { m_TimeToStart = value; } }
 
     public int score { get { return m_Score; } }
     public int multiplier { get { return m_Multiplier; } }

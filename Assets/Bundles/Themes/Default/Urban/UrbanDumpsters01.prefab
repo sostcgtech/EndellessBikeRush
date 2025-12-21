@@ -230,7 +230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4000012405565810
 Transform:
   m_ObjectHideFlags: 0
@@ -511,7 +511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4000010507992540
 Transform:
   m_ObjectHideFlags: 0
@@ -692,12 +692,12 @@ MonoBehaviour:
   objectRoot: {fileID: 0}
   collectibleTransform: {fileID: 0}
   possibleObstacles:
-  - m_AssetGUID: d9056217b765e1b4893238b9e7ebddbc
+  - m_AssetGUID: ca65f0887e68b0d49ad19b2c3988e47a
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 
     m_EditorAssetChanged: 0
-  - m_AssetGUID: ec0335ae7fd65b74898920e51d042abd
+  - m_AssetGUID: ca65f0887e68b0d49ad19b2c3988e47a
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 
@@ -721,7 +721,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4000013191525910
 Transform:
   m_ObjectHideFlags: 0

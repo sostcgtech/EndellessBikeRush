@@ -1,4 +1,31 @@
-﻿using UnityEngine;
+﻿//using UnityEngine;
+
+//public class Character : MonoBehaviour
+//{
+//    public string characterName;
+//    public int cost;
+//    public int premiumCost;
+
+//    public CharacterAccessories[] accessories;
+
+//    [HideInInspector] public Animator animator; // optional now
+//    public Sprite icon;
+
+//    [Header("Sound")]
+//    public AudioClip jumpSound;
+//    public AudioClip hitSound;
+//    public AudioClip deathSound;
+
+//    public void SetupAccesory(int accessory)
+//    {
+//        for (int i = 0; i < accessories.Length; ++i)
+//        {
+//            accessories[i].gameObject.SetActive(i == PlayerData.instance.usedAccessory);
+//        }
+//    }
+//}
+
+using UnityEngine;
 using System;
 
 /// <summary>
@@ -9,17 +36,17 @@ public class Character : MonoBehaviour
 {
     public string characterName;
     public int cost;
-	public int premiumCost;
+    public int premiumCost;
 
-	public CharacterAccessories[] accessories;
+    public CharacterAccessories[] accessories;
 
     public Animator animator;
-	public Sprite icon;
+    public Sprite icon;
 
-	[Header("Sound")]
-	public AudioClip jumpSound;
-	public AudioClip hitSound;
-	public AudioClip deathSound;
+    [Header("Sound")]
+    public AudioClip jumpSound;
+    public AudioClip hitSound;
+    public AudioClip deathSound;
 
     // Called by the game when an accessory changes, enable/disable the accessories children objects accordingly
     // a value of -1 as parameter disables all accessory.

@@ -961,11 +961,6 @@ MonoBehaviour:
   objectRoot: {fileID: 0}
   collectibleTransform: {fileID: 0}
   possibleObstacles:
-  - m_AssetGUID: ec0335ae7fd65b74898920e51d042abd
-    m_SubObjectName: 
-    m_SubObjectType: 
-    m_SubObjectGUID: 
-    m_EditorAssetChanged: 0
   - m_AssetGUID: 82eb370d70e50344cb6eeb919a1429b8
     m_SubObjectName: 
     m_SubObjectType: 

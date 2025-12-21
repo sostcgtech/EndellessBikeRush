@@ -50,6 +50,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1245d9d938939314082a8a61f8852450
+    m_Address: Assets/Animation/Animators/MotorcycleAnimation.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1359dd6aa47776244b81e26522160310
     m_Address: Assets/Models/Daytime/Warehouse03.fbx
     m_ReadOnly: 0

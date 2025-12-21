@@ -49,6 +49,8 @@ public class LoadoutState : AState
 	public MeshFilter skyMeshFilter;
     public MeshFilter UIGroundFilter;
 
+    public GameObject splineBackground;
+
 	public AudioClip menuTheme;
 
 
@@ -84,8 +86,11 @@ public class LoadoutState : AState
 
         k_UILayer = LayerMask.NameToLayer("UI");
 
-        skyMeshFilter.gameObject.SetActive(true);
-        UIGroundFilter.gameObject.SetActive(true);
+        //skyMeshFilter.gameObject.SetActive(true);
+        //UIGroundFilter.gameObject.SetActive(true);
+
+        splineBackground.SetActive(true);
+
 
         // Reseting the global blinking value. Can happen if the game unexpectedly exited while still blinking
         Shader.SetGlobalFloat("_BlinkingValue", 0.0f);
@@ -118,8 +123,11 @@ public class LoadoutState : AState
 
         GameState gs = to as GameState;
 
-        skyMeshFilter.gameObject.SetActive(false);
-        UIGroundFilter.gameObject.SetActive(false);
+        //skyMeshFilter.gameObject.SetActive(false);
+        //UIGroundFilter.gameObject.SetActive(false);
+
+        splineBackground.SetActive(false);
+
 
         if (gs != null)
         {
