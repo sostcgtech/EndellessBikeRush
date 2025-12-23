@@ -15,8 +15,28 @@ MonoBehaviour:
   m_GroupName: Day-Theme-Obstacles
   m_GUID: 95a3c2cd5e0a1b745a3fd1ce16c01ff9
   m_SerializeEntries:
+  - m_GUID: 01644c53201abdd4fbe2c2eb8c9317c9
+    m_Address: Car_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 22facfbe232a90b45b681c638f2e490d
     m_Address: ObstacleBin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28dcef735e6413941a7277d43cffc76b
+    m_Address: Main_Truck
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45560dd1f5842374eb0b7494d1b975e8
+    m_Address: Tax
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68fcae3ac74beae419a016c497d468f0
+    m_Address: Gas_Truck
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -52,6 +72,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f0070c0f7d7cdcb4eb7176be4a87caa9
     m_Address: ObstacleRoadworksCone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f144252b478e50f4ea8c65c23bc81686
+    m_Address: Pickup
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

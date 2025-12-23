@@ -120,11 +120,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2e5e3676cebb57f48b5d75c4d05fc7e2
-    m_Address: Assets/Models_2/Road2Texture/VCOL.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 30ef3480996caf140bcd7afeae88ea89
     m_Address: Assets/Models/Daytime/RoadWorksBarrier01.fbx
     m_ReadOnly: 0
@@ -187,11 +182,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 540c9cb7b5d464f44b60de14713427a3
     m_Address: Assets/Materials/Plaster.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 559b4f079aaa4f448a3bc1c7f213d4ae
-    m_Address: Assets/Models_2/Road2Texture/VCOL.001.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -550,6 +540,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d75fade8eedba0f48aff82e89f914e90
+    m_Address: Assets/Models_2/Nw/NewRoad/Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d8f76b712098b754dafbe140ac26ece8
     m_Address: Assets/Textures/Graffiti/Graffiti12.png
     m_ReadOnly: 0
@@ -607,6 +602,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e98075cb4974df0408eb7ee2083b60f8
     m_Address: Assets/Models/Daytime/PlasteredWall02.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed43c273e0fc62743a49c564a69c954c
+    m_Address: Assets/Models_2/Nw/Materials/Mat.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

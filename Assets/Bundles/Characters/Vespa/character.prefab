@@ -179,9 +179,9 @@ MonoBehaviour:
   - {fileID: 114000012881478878, guid: 2ae64d0eaec8d6f4f9436fce6117048d, type: 3}
   animator: {fileID: 512317328777537624}
   icon: {fileID: 21300000, guid: 36f8fa129988f35409f4b6823286cd2b, type: 3}
-  jumpSound: {fileID: 8300000, guid: 819da6b208e0c0342b38dbbba363b740, type: 3}
-  hitSound: {fileID: 8300000, guid: 4df05e5a3da67b74ab57e4fdbff8c1fa, type: 3}
-  deathSound: {fileID: 8300000, guid: 3acd66c1c1f3d3a499214949f2b98bc5, type: 3}
+  jumpSound: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: 874119d4188774c429f063190356baba, type: 3}
+  deathSound: {fileID: 0}
 --- !u!82 &3024962041868890812
 AudioSource:
   m_ObjectHideFlags: 0
