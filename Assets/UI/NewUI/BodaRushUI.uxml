@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd">
+
+    <!-- Attach USS correctly -->
+    <Style src="MainMenu.uss" />
+
+    <!-- ROOT -->
+    <ui:VisualElement class="root">
+
+        <!-- TOP BAR -->
+        <ui:VisualElement class="topBar">
+            <ui:Button class="settingsBtn">⚙</ui:Button>
+
+            <ui:VisualElement class="currencyRow">
+                <ui:Button class="currencyBtn">COINS</ui:Button>
+                <ui:Button class="currencyBtn">GOLD</ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- CENTER PLAY TEXT -->
+        <ui:Label class="playText">TAP TO PLAY!</ui:Label>
+
+        <!-- BOTTOM MENU -->
+        <ui:VisualElement class="bottomBar">
+            <ui:Button class="menuBtn">TROPHY</ui:Button>
+            <ui:Button class="menuBtn">BONUS</ui:Button>
+            <ui:Button class="menuBtn">MISSION</ui:Button>
+            <ui:Button class="menuBtn">SHOP</ui:Button>
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+
+</ui:UXML>

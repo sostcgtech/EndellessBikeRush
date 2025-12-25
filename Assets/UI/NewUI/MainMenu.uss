@@ -1,0 +1,75 @@
+.root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #5f6aff;
+    justify-content: space-between;
+}
+
+* {
+    flex-shrink: 0;
+}
+
+/* -------- TOP BAR -------- */
+.topBar {
+    width: 100%;
+    height: 12%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settingsBtn {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.currencyRow {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.currencyBtn {
+    height: 50px;
+    width: 160px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+/* -------- CENTER TEXT -------- */
+.playText {
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+    align-self: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------- BOTTOM BAR -------- */
+.bottomBar {
+    width: 100%;
+    height: 14%;
+    background-color: rgba(255,255,255,0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 15px;
+}
+
+.menuBtn {
+    flex: 1;
+    min-height: 60px;
+    max-width: 22%;
+}
